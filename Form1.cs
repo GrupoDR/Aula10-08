@@ -23,6 +23,7 @@ namespace aula10_08
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //string teste = textBox1.Text;
             listBox1.Items.Add(textBox1.Text);
         }
     }
