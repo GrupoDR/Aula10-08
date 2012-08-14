@@ -26,5 +26,18 @@ namespace aula10_08
             //string teste = textBox1.Text;
             listBox1.Items.Add(textBox1.Text);
         }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (MessageBox.Show("Sair do programa?", "Mensagem do Sistema", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
+            {
+                e.Cancel = true;
+            }
+        }
+
+
+
+
+
     }
 }
