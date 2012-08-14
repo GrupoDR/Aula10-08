@@ -35,6 +35,11 @@ namespace aula10_08
             }
         }
 
+        private void Sair_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
 
 
 
