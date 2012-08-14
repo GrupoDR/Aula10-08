@@ -65,7 +65,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(318, 270);
+            this.button2.Location = new System.Drawing.Point(306, 274);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(121, 34);
             this.button2.TabIndex = 3;
@@ -77,7 +77,7 @@
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(43, 104);
+            this.listBox1.Location = new System.Drawing.Point(43, 108);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(384, 148);
             this.listBox1.TabIndex = 4;
@@ -102,7 +102,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.ClientSize = new System.Drawing.Size(475, 345);
+            this.ClientSize = new System.Drawing.Size(465, 341);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
             this.Text = "Git";
