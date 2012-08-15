@@ -56,9 +56,9 @@
             // 
             // Adicionar
             // 
-            this.Adicionar.Location = new System.Drawing.Point(514, 92);
+            this.Adicionar.Location = new System.Drawing.Point(458, 60);
             this.Adicionar.Name = "Adicionar";
-            this.Adicionar.Size = new System.Drawing.Size(174, 115);
+            this.Adicionar.Size = new System.Drawing.Size(174, 63);
             this.Adicionar.TabIndex = 2;
             this.Adicionar.Text = "&ADICIONAR";
             this.Adicionar.UseVisualStyleBackColor = true;
@@ -66,9 +66,9 @@
             // 
             // Apagar
             // 
-            this.Apagar.Location = new System.Drawing.Point(514, 225);
+            this.Apagar.Location = new System.Drawing.Point(458, 142);
             this.Apagar.Name = "Apagar";
-            this.Apagar.Size = new System.Drawing.Size(174, 141);
+            this.Apagar.Size = new System.Drawing.Size(174, 66);
             this.Apagar.TabIndex = 3;
             this.Apagar.Text = "&APAGAR";
             this.Apagar.UseVisualStyleBackColor = true;
@@ -92,14 +92,14 @@
             // COMFLITO_SE_VIRA_RODRIGAO
             // 
             this.COMFLITO_SE_VIRA_RODRIGAO.Controls.Add(this.Apagar);
-            this.COMFLITO_SE_VIRA_RODRIGAO.Controls.Add(this.Adicionar);
             this.COMFLITO_SE_VIRA_RODRIGAO.Controls.Add(this.Lista_da_caixa);
+            this.COMFLITO_SE_VIRA_RODRIGAO.Controls.Add(this.Adicionar);
             this.COMFLITO_SE_VIRA_RODRIGAO.Controls.Add(this.tEX);
             this.COMFLITO_SE_VIRA_RODRIGAO.Controls.Add(this.TEXTO);
             this.COMFLITO_SE_VIRA_RODRIGAO.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.COMFLITO_SE_VIRA_RODRIGAO.Location = new System.Drawing.Point(7, 12);
             this.COMFLITO_SE_VIRA_RODRIGAO.Name = "COMFLITO_SE_VIRA_RODRIGAO";
-            this.COMFLITO_SE_VIRA_RODRIGAO.Size = new System.Drawing.Size(716, 394);
+            this.COMFLITO_SE_VIRA_RODRIGAO.Size = new System.Drawing.Size(639, 394);
             this.COMFLITO_SE_VIRA_RODRIGAO.TabIndex = 5;
             this.COMFLITO_SE_VIRA_RODRIGAO.TabStop = false;
             this.COMFLITO_SE_VIRA_RODRIGAO.Text = "TESTE GIT";
@@ -107,19 +107,18 @@
             // groupBox1
             // 
             this.groupBox1.BackgroundImage = global::aula10_08.Properties.Resources.git;
-            this.groupBox1.Location = new System.Drawing.Point(729, 24);
+            this.groupBox1.Location = new System.Drawing.Point(652, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(212, 406);
+            this.groupBox1.Size = new System.Drawing.Size(236, 368);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.ClientSize = new System.Drawing.Size(953, 442);
+            this.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.ClientSize = new System.Drawing.Size(867, 387);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.COMFLITO_SE_VIRA_RODRIGAO);
             this.Name = "Form1";
