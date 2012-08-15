@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.TEXTO = new System.Windows.Forms.Label();
             this.tEX = new System.Windows.Forms.TextBox();
             this.Adicionar = new System.Windows.Forms.Button();
@@ -104,7 +105,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.BackgroundImage = global::aula10_08.Properties.Resources.git;
+            this.groupBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("groupBox1.BackgroundImage")));
             this.groupBox1.Location = new System.Drawing.Point(652, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(236, 368);
@@ -143,4 +144,5 @@
 
     }
 }
+
 

@@ -25,7 +25,6 @@ namespace aula10_08
 
         private void button1_Click(object sender, EventArgs e)
         {
-
             Lista_da_caixa.Items.Add(tEX.Text);
         }
 
