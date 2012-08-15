@@ -15,7 +15,13 @@ namespace aula10_08
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+
+            Aula10_08.Form2 Carregar = new Aula10_08.Form2();
+            Carregar.ShowDialog();
+            if (Carregar.Pbar)
+            {
+                Application.Run(new Form1());
+            }
         }
     }
 }
