@@ -34,6 +34,7 @@
             this.Apagar = new System.Windows.Forms.Button();
             this.Lista_da_caixa = new System.Windows.Forms.ListBox();
             this.COMFLITO_SE_VIRA_RODRIGAO = new System.Windows.Forms.GroupBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.COMFLITO_SE_VIRA_RODRIGAO.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -55,9 +56,9 @@
             // 
             // Adicionar
             // 
-            this.Adicionar.Location = new System.Drawing.Point(514, 50);
+            this.Adicionar.Location = new System.Drawing.Point(514, 92);
             this.Adicionar.Name = "Adicionar";
-            this.Adicionar.Size = new System.Drawing.Size(174, 32);
+            this.Adicionar.Size = new System.Drawing.Size(174, 115);
             this.Adicionar.TabIndex = 2;
             this.Adicionar.Text = "&ADICIONAR";
             this.Adicionar.UseVisualStyleBackColor = true;
@@ -65,9 +66,9 @@
             // 
             // Apagar
             // 
-            this.Apagar.Location = new System.Drawing.Point(514, 108);
+            this.Apagar.Location = new System.Drawing.Point(514, 225);
             this.Apagar.Name = "Apagar";
-            this.Apagar.Size = new System.Drawing.Size(174, 34);
+            this.Apagar.Size = new System.Drawing.Size(174, 141);
             this.Apagar.TabIndex = 3;
             this.Apagar.Text = "&APAGAR";
             this.Apagar.UseVisualStyleBackColor = true;
@@ -75,15 +76,17 @@
             // 
             // Lista_da_caixa
             // 
+            this.Lista_da_caixa.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.Lista_da_caixa.Font = new System.Drawing.Font("Monotype Sorts", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
             this.Lista_da_caixa.FormattingEnabled = true;
-            this.Lista_da_caixa.ItemHeight = 16;
+            this.Lista_da_caixa.ItemHeight = 27;
             this.Lista_da_caixa.Items.AddRange(new object[] {
             "UM",
             "DOIS ",
             "TRÊS"});
-            this.Lista_da_caixa.Location = new System.Drawing.Point(6, 108);
+            this.Lista_da_caixa.Location = new System.Drawing.Point(22, 92);
             this.Lista_da_caixa.Name = "Lista_da_caixa";
-            this.Lista_da_caixa.Size = new System.Drawing.Size(421, 276);
+            this.Lista_da_caixa.Size = new System.Drawing.Size(421, 274);
             this.Lista_da_caixa.TabIndex = 4;
             // 
             // COMFLITO_SE_VIRA_RODRIGAO
@@ -101,12 +104,23 @@
             this.COMFLITO_SE_VIRA_RODRIGAO.TabStop = false;
             this.COMFLITO_SE_VIRA_RODRIGAO.Text = "TESTE GIT";
             // 
+            // groupBox1
+            // 
+            this.groupBox1.BackgroundImage = global::aula10_08.Properties.Resources.git;
+            this.groupBox1.Location = new System.Drawing.Point(729, 24);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(212, 406);
+            this.groupBox1.TabIndex = 6;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "groupBox1";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.ClientSize = new System.Drawing.Size(735, 418);
+            this.ClientSize = new System.Drawing.Size(953, 442);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.COMFLITO_SE_VIRA_RODRIGAO);
             this.Name = "Form1";
             this.Text = "Git";
@@ -127,6 +141,7 @@
         private System.Windows.Forms.Button Apagar;
         private System.Windows.Forms.ListBox Lista_da_caixa;
         private System.Windows.Forms.GroupBox COMFLITO_SE_VIRA_RODRIGAO;
+        private System.Windows.Forms.GroupBox groupBox1;
 
     }
 }
