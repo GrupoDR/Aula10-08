@@ -31,7 +31,10 @@ namespace aula10_08
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Lista_da_caixa.Items.Remove(Lista_da_caixa.SelectedItem);
+            if (MessageBox.Show("DESEJA REALMENTE EXCLUIR ITEM ????", "AVISO", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                Lista_da_caixa.Items.Remove(Lista_da_caixa.SelectedItem);
+            }
 
         }
 
