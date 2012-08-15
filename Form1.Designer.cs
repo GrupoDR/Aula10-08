@@ -28,9 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.TEXTO = new System.Windows.Forms.Label();
-
             this.tEX = new System.Windows.Forms.TextBox();
             this.Adicionar = new System.Windows.Forms.Button();
             this.Apagar = new System.Windows.Forms.Button();
@@ -54,9 +52,8 @@
             this.tEX.Name = "tEX";
             this.tEX.Size = new System.Drawing.Size(421, 23);
             this.tEX.TabIndex = 1;
-
             // 
-            // B_ADD
+            // Adicionar
             // 
             this.Adicionar.Location = new System.Drawing.Point(514, 50);
             this.Adicionar.Name = "Adicionar";
@@ -65,20 +62,20 @@
             this.Adicionar.Text = "&ADICIONAR";
             this.Adicionar.UseVisualStyleBackColor = true;
             this.Adicionar.Click += new System.EventHandler(this.button1_Click);
-
             // 
-            // B_DEL
+            // Apagar
             // 
-     this.Apagar.Location = new System.Drawing.Point(514, 108);
+            this.Apagar.Location = new System.Drawing.Point(514, 108);
             this.Apagar.Name = "Apagar";
             this.Apagar.Size = new System.Drawing.Size(174, 34);
             this.Apagar.TabIndex = 3;
             this.Apagar.Text = "&APAGAR";
             this.Apagar.UseVisualStyleBackColor = true;
             this.Apagar.Click += new System.EventHandler(this.button2_Click);
-
-            // Caixa_de_lista
-   this.Lista_da_caixa.FormattingEnabled = true;
+            // 
+            // Lista_da_caixa
+            // 
+            this.Lista_da_caixa.FormattingEnabled = true;
             this.Lista_da_caixa.ItemHeight = 16;
             this.Lista_da_caixa.Items.AddRange(new object[] {
             "UM",
@@ -104,7 +101,6 @@
             this.COMFLITO_SE_VIRA_RODRIGAO.TabStop = false;
             this.COMFLITO_SE_VIRA_RODRIGAO.Text = "TESTE GIT";
             // 
-
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -115,6 +111,7 @@
             this.Name = "Form1";
             this.Text = "Git";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.COMFLITO_SE_VIRA_RODRIGAO.ResumeLayout(false);
             this.COMFLITO_SE_VIRA_RODRIGAO.PerformLayout();
             this.ResumeLayout(false);

@@ -16,9 +16,14 @@ namespace aula10_08
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            
-  
+            Form3 obj = new Form3();
+
+            obj.ShowDialog();
+
+            if (obj.verifica)
+            {
                 Application.Run(new Form1());
+            }
             
         }
     }
