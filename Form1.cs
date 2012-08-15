@@ -16,15 +16,19 @@ namespace aula10_08
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button1_Click_1(object sender, EventArgs e)
         {
-            Lista_da_caixa.Items.Remove (Lista_da_caixa.SelectedItem);
+            this.Close();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //string teste = textBox1.Text;
-            Lista_da_caixa.Items.Add(Oquedeveadicionar.Text);
+            Lista_da_caixa.Items.Add(tEX.Text);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Lista_da_caixa.Items.Remove(Lista_da_caixa.SelectedItem);
         }
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
@@ -36,11 +40,7 @@ namespace aula10_08
             // Ops!!!
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
+        
 
 
 
