@@ -56,7 +56,7 @@
             // 
             // Adicionar
             // 
-            this.Adicionar.Location = new System.Drawing.Point(458, 60);
+            this.Adicionar.Location = new System.Drawing.Point(465, 142);
             this.Adicionar.Name = "Adicionar";
             this.Adicionar.Size = new System.Drawing.Size(174, 63);
             this.Adicionar.TabIndex = 2;
@@ -66,7 +66,7 @@
             // 
             // Apagar
             // 
-            this.Apagar.Location = new System.Drawing.Point(458, 142);
+            this.Apagar.Location = new System.Drawing.Point(465, 222);
             this.Apagar.Name = "Apagar";
             this.Apagar.Size = new System.Drawing.Size(174, 66);
             this.Apagar.TabIndex = 3;
@@ -77,16 +77,14 @@
             // Lista_da_caixa
             // 
             this.Lista_da_caixa.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.Lista_da_caixa.Font = new System.Drawing.Font("Monotype Sorts", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.Lista_da_caixa.Font = new System.Drawing.Font("Aharoni", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
             this.Lista_da_caixa.FormattingEnabled = true;
             this.Lista_da_caixa.ItemHeight = 27;
             this.Lista_da_caixa.Items.AddRange(new object[] {
-            "UM",
-            "DOIS ",
-            "TRÊS"});
-            this.Lista_da_caixa.Location = new System.Drawing.Point(22, 92);
+            ""});
+            this.Lista_da_caixa.Location = new System.Drawing.Point(9, 105);
             this.Lista_da_caixa.Name = "Lista_da_caixa";
-            this.Lista_da_caixa.Size = new System.Drawing.Size(421, 274);
+            this.Lista_da_caixa.Size = new System.Drawing.Size(421, 2137);
             this.Lista_da_caixa.TabIndex = 4;
             // 
             // COMFLITO_SE_VIRA_RODRIGAO
@@ -122,6 +120,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.COMFLITO_SE_VIRA_RODRIGAO);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Git";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);

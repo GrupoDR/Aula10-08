@@ -73,5 +73,12 @@ namespace aula10_08.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        internal static System.Drawing.Bitmap members_login_right {
+            get {
+                object obj = ResourceManager.GetObject("members-login-right", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
